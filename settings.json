@@ -1,0 +1,114 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 2,
+    "editor.stickyTabStops": true,
+    "editor.comments.insertSpace": false,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "cSpell.userWords": [
+        "millis"
+    ],
+    //Vim関連
+    "vim.enableNeovim": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-n>": false,
+        "<C-p>": false,
+    },
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": [
+        "#8FBCBB",
+        "#434C5E"
+    ],
+    "vim.statusBarColors.insert": "#BF616A",
+    "vim.statusBarColors.visual": "#B48EAD",
+    "vim.statusBarColors.visualline": "#B48EAD",
+    "vim.statusBarColors.visualblock": "#A3BE8C",
+    "vim.statusBarColors.replace": "#D08770",
+    "vim.statusBarColors.commandlineinprogress": "#007ACC",
+    "vim.statusBarColors.searchinprogressmode": "#007ACC",
+    "vim.statusBarColors.easymotionmode": "#007ACC",
+    "vim.statusBarColors.easymotioninputmode": "#007ACC",
+    "vim.statusBarColors.surroundinputmode": "#007ACC",
+    //Vimここまで
+    "editor.accessibilitySupport": "on",
+    "editor.inlineSuggest.enabled": true,
+    "arduino.useArduinoCli": true,
+    "redhat.telemetry.enabled": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Monokai",
+    "workbench.editorAssociations": {
+        "*.pdf": "latex-workshop-pdf-hook"
+    },
+    "cmake.configureOnOpen": true,
+    "remote.SSH.remotePlatform": {
+        "raspi2024": "linux",
+        "raspi2024.local": "linux"
+    },
+    "[nginx]": {
+        "editor.defaultFormatter": "raynigon.nginx-formatter"
+    },
+    "accessibility.signals.sounds.volume": 0,
+    "accessibility.signals.lineHasError": {
+        "sound": "off"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#B48EAD",
+        "statusBar.noFolderBackground": "#B48EAD",
+        "statusBar.debuggingBackground": "#B48EAD",
+        "statusBar.foreground": "#434C5E",
+        "statusBar.debuggingForeground": "#434C5E"
+    },
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "editor.fontFamily": "'Moralerspace Neon HWNF',Consolas, 'Courier New', monospace",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "accessibility.signals.lineHasInlineSuggestion": {
+        "sound": "off"
+    },
+    "accessibility.signals.lineHasWarning": {
+        "sound": "off"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "accessibility.signals.positionHasError": {
+        "sound": "off"
+    },
+    "accessibility.signals.terminalBell": {
+        "sound": "off"
+    },
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "prisma.showPrismaDataPlatformNotification": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+}
