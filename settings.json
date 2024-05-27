@@ -60,10 +60,6 @@
         "*.pdf": "latex-workshop-pdf-hook"
     },
     "cmake.configureOnOpen": true,
-    "remote.SSH.remotePlatform": {
-        "raspi2024": "linux",
-        "raspi2024.local": "linux"
-    },
     "[nginx]": {
         "editor.defaultFormatter": "raynigon.nginx-formatter"
     },
